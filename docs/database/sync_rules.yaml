@@ -1,0 +1,17 @@
+bucket_definitions:
+  # Global bucket for generic data (could be empty or used for shared configs)
+  global:
+    parameters: []
+    data_queries:
+      - select * from profiles
+
+  # Bucket per user to ensure data isolation (if multi-tenancy is added later)
+  # For now, since it's a small organization ERP, we might sync everything relevant to the active user's org.
+  org_data:
+    parameters: 
+      - select id as user_id from profiles where id = request.user_id()
+    data_queries:
+      - select * from members
+      - select * from financial_records
+      - select * from events
+      - select * from attendance
