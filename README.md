@@ -1,16 +1,92 @@
-# erp_church
+FaithOrg ERP
 
-A new Flutter project.
+FaithOrg ERP é um sistema de gestão leve e modular destinado a igrejas, associações comunitárias e ONG’s, desenvolvido com foco na realidade angolana. O projecto visa digitalizar processos administrativos e financeiros, promovendo organização, transparência e controlo operacional.
 
-## Getting Started
+Objectivo do Projecto
 
-This project is a starting point for a Flutter application.
+Criar uma solução tecnológica simples, acessível e escalável que permita às organizações comunitárias:
 
-A few resources to get you started if this is your first Flutter project:
+Centralizar dados administrativos e financeiros
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Melhorar a transparência e prestação de contas
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Reduzir processos manuais e erros operacionais
+
+Facilitar a comunicação interna
+
+Preparar a organização para crescimento e formalização
+
+Escopo Funcional
+
+Gestão de membros e grupos
+
+Registo de contribuições financeiras (dízimos, ofertas, doações)
+
+Gestão de eventos e actividades
+
+Relatórios financeiros e administrativos
+
+Comunicação direta com membros
+
+Controlo de acessos por perfil
+
+Suporte a funcionamento offline com sincronização
+
+Fases do Projecto
+Fase 1 – MVP (Produto Mínimo Viável)
+
+Autenticação e gestão de utilizadores
+
+Registo básico de membros
+
+Registo manual de contribuições
+
+Relatórios simples
+
+Aplicação mobile funcional
+
+Fase 2 – Consolidação
+
+Gestão de eventos e presenças
+
+Dashboards administrativos
+
+Comunicação integrada (WhatsApp/SMS)
+
+Melhorias de UX e performance
+
+Sincronização offline mais robusta
+
+Fase 3 – Produção e Escala
+
+Pagamentos digitais integrados
+
+Auditoria e histórico detalhado
+
+Relatórios para financiadores
+
+Multi-organização
+
+Preparação para parcerias institucionais
+
+Stack Tecnológica
+
+Flutter (Mobile / Web)
+
+Backend: Java (Spring Boot) ou Kotlin
+
+API REST com autenticação JWT
+
+PostgreSQL (server)
+
+SQLite (offline)
+
+Arquitetura modular e escalável
+
+Estado do Projecto
+
+Em desenvolvimento ativo – fase de MVP.
+
+Visão de Produção
+
+O FaithOrg ERP pretende evoluir para uma plataforma de infraestrutura social, servindo como base tecnológica para a gestão transparente e sustentável de organizações comunitárias em Angola e outros mercados semelhantes.
